@@ -28,7 +28,7 @@ tourn_df, bout_df, fencers_bio_df, fencers_rankings_df = get_results_for_divisio
 if save_results:
 
     date_string = date.today().strftime("%b_%d_%Y")
-    directory = 'output/'+date_string+"/"
+    directory = 'C:/Users/roman/Documents/'+date_string+"/"
 
     if not path.exists(directory):
         makedirs(directory)
